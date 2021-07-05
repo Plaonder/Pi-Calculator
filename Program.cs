@@ -45,7 +45,7 @@ namespace PICalculator {
             Console.WriteLine($"\nCalculated Pi is {pi}");
             Console.WriteLine($"      Real Pi is {Math.PI}");
             double error = (Math.Abs(pi - Math.PI) / Math.Abs(Math.PI)) * 100;
-            Console.WriteLine($"The error of pi was {error}");
+            Console.WriteLine($"The error of pi was {error}%");
         }
         
         static void SingleThreadedFor() {
